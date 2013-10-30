@@ -9,22 +9,20 @@ It works like a Datepicker plugin. On focus (tab to field or click), a calculato
 ## How to use
 
 * For static textfields, include the JS file on your page
-...
-<script src="calc.js"></script>
-...
+
+`<script src="calc.js"></script>`
+
 and set the 'type' attribute of the INPUT element to 'calculator'
-...
-<input type="calculator" name="total" />
-...
+
+`<input type="calculator" name="total" />`
 
 * For dynamic textfield elements, you can instantiate the Calculator class programatically
-...
-var txtfld = document.createElement("input");
+
+`var txtfld = document.createElement("input");
 txtfld.type = "text";
 txtfld.name = "amount";
 
-new Calculator(txtfld);
-...
+new Calculator(txtfld);`
 
 The Calculator constructor can accept textfield(s) in the form of
 1) DOM Element reference
