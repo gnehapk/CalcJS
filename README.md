@@ -18,11 +18,13 @@ and set the 'type' attribute of the INPUT element to 'calculator'
 
 * For dynamic textfield elements, you can instantiate the Calculator class programatically
 
-`var txtfld = document.createElement("input");
+```
+var txtfld = document.createElement("input");
 txtfld.type = "text";
 txtfld.name = "amount";
 
 new Calculator(txtfld);`
+```
 
 The Calculator constructor can accept textfield(s) in the form of
 1) DOM Element reference
