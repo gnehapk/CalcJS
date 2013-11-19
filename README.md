@@ -33,3 +33,18 @@ The Calculator constructor can accept textfield(s) in the form of:
 3. NodeList or HTMLCollection
 4. CSS selector and
 5. Array of CSS selectors.
+
+## Pending things
+
+Currently working on following things:
+
+1. Support for Array (Element as well as CSS Selector)
+2. Input validation
+
+## Plan for next vesion
+
+Planning to enhance with following things in the next version:
+
+1. Support for themes
+2. Localization support
+3. Scientific mode
