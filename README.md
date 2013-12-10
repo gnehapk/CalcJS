@@ -26,13 +26,7 @@ txtfld.name = "amount";
 new Calculator(txtfld);`
 ```
 
-The Calculator constructor can accept textfield(s) in the form of:
-
-1. DOM Element reference
-2. Array of DOM Element references
-3. NodeList or HTMLCollection
-4. CSS selector and
-5. Array of CSS selectors.
+The Calculator constructor can accept textfield(s) in the form of (1) DOM Element reference and (2) CSS selector.
 
 ## Pending things
 
